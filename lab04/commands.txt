@@ -1,0 +1,25 @@
++ 1 Stark Tony
++ 2 Banner Bruce
++ 77 Odinson Thor
++ 300 Maximoff Wanda
++ 301 Maximoff Wanda
++ 111 Thanos Thanos
+
+ln 
+
+fz 77
+
+fz No Name
+
+fz 111
+
+d 300
+
+fz 300
+
++ 300 Maximoff Wanda
+
+fz 301
+
+d 77
+fz 77

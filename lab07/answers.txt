@@ -1,0 +1,21 @@
+
+NOTE:
+- Your time complexities should be expressed in big-O notation and be in
+  terms of n, where n is the number of cells in the maze.
+
+============
+  solveBfs
+============
+
+- Worst case time complexity: O(n^2)
+
+- Explanation: The worst case would be when we check every cell and go through every edge to find the exit
+
+============
+  solveDfs
+============
+
+- Worst case time complexity: O(n^2)
+
+- Explanation: Same reason as the solveBfs algorithm
+
