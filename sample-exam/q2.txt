@@ -1,0 +1,6 @@
+Question 2
+
+What is the time complexity of the algorithm? Justify your answer.
+
+O(log n), in each iteration n is reduced to n/2, and time complexity of each iteration is O(1)
+

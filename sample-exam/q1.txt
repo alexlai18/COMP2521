@@ -1,0 +1,7 @@
+Question 1
+
+What is the time complexity of the algorithm? Justify your answer.
+
+O(n logn), as it breaks it into a subproblem of n/2 in every iteration. It also takes O(2n) to convert and combine it so it is O(2n) * O(log n)
+
+

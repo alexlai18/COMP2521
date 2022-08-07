@@ -1,0 +1,29 @@
+Question 3
+
+(a) 
+(a1) What value(s) would be stored in the root node of the above 2-3-4 
+     tree after the insertion of the value 8? 
+     Justify your answer.
+     When inserting 8, you don't need to promote anything as it is a 3-node.
+     The root node is the original root, of 12,35 and 60
+
+
+
+(a2) What value(s) would be stored in the node that now contains 8? 
+     Justify your answer.
+     The node containing 8 would also have 1 and 7
+
+
+(b) 
+(b1) What value(s) would be stored in the root node of the above 2-3-4 
+     tree after the insertion of the value 50? 
+     Justify your answer.
+     When inserting 50, 44 gets promoted, leading to 35 being promoted.
+     Therefore, 35 is the root.
+
+
+(b2) What value(s) would be stored in the node that now contains 50? 
+     Justify your answer.
+     The nodes with 50 is 36 and 57
+
+

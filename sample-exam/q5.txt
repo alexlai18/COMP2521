@@ -1,0 +1,15 @@
+Question 5
+
+(a) What is the difference between an Euler path and a Hamilton path?
+Hamilton path is a path between v and w in which the path includes each vertex exactly once. 
+Euler path is a path between v and w in which the path includes each edge exactly once.
+
+
+(b) Does the graph have any Euler paths? If so, give one of them. If not, explain why.
+No. It would be impossible to touch every edge without having duplicates. 
+
+
+(c) Does the graph have any Hamilton paths? If so, give one of them. If not, explain why.
+0-1-2-3
+
+

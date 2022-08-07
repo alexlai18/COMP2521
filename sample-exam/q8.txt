@@ -1,0 +1,18 @@
+Question 8
+
+Describe in detail the steps you would perform to tell the sort programs apart.
+
+First we test the stability of the sorting algorithm, by inputting a number of values in alphabetical order, with a number before it.
+If it is stable, it should be ordered by number and alphabetically.
+
+If unstable, it should be the naive quicksort.
+
+Then, we plot the times, and look at the time complexities of the sorting algorithms. We take in different number inputs.
+Merge sort should not change despite input being random, increasing or decreasing. 
+Then, we test to see if there are swaps. If there are swaps, then it is bubble sort, if not it is insertion sort.
+
+
+Bubblesort vs insertion sort:
+If the list is sorted by increasing value except for last value which is the smallest value.
+Bubblesort: O(N^2) has to check and move it up for every node, making it n^2
+Insertion sort: O(n) just inserts the 2 at the front after checking it with the first value

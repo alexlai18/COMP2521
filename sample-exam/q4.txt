@@ -1,0 +1,20 @@
+Question 4
+
+(a) How many words are stored in this trie?
+    11
+
+
+(b) Which nodes would be visited in searching for "deeds"?
+    Only node d
+
+
+(c) What new nodes would be created if the word "bogus" was added to the trie?
+    Justify your answer.
+    2 nodes, just u and s as bog has already been registered as a word
+
+
+(d) What new nodes would be created if the word "do" was added to the trie?
+    Justify your answer.
+    None, do is a subset of dog
+
+
