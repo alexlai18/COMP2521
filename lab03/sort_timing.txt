@@ -1,0 +1,26 @@
+Input Size	    Initial	Order   Number of Runs	AvgTime	for sortIntList	    AvgTime for sort
+10000	        random	        10	            0.22		                0.00
+10000	        sorted	        10	            0.25		                0.00
+10000	        reverse	        10	            0.00		                0.00
+20000	        random	        10	            1.38		                0.02
+20000	        sorted	        10	            0.86		                0.00
+20000	        reverse	        10	            0.00		                0.01
+40000	        random	        10	            7.13		                0.04
+40000	        sorted	        10	            3.32		                0.01
+40000	        reverse	        10	            0.02		                0.02
+...
+
+Trend 1: 
+In general, our function sortIntList ran much slower than the unix function sort in almost all orders (comparable when looking at reverse).
+This is because sortIntList must run through IntList.c before running through sortIntList, and so that increases the time complexity of the
+algorithm. Therefore, sortIntList will have a longer runtime than unix sort. As time complexities scale with the input size, we can also see 
+that the difference in time between sortIntList and sort gets increasingly larger. 
+
+Trend 2:
+Sorted and reversed order run much faster than random. This makes sense as they demonstrate the best case scenario, where the numbers are
+already ordered in either ascending and descending order, allowing both algorithms to have a lower runtime. This difference also scales with
+the input size as the algorithm has to sort through more numbers. 
+
+Trend 3:
+Reverse is comparable between sortIntList and sort because of the way that sortIntList works where it goes through the list and places the input
+before the larger number. That means that when in reverse, it would just continue to go to the front, making it a very efficient process. 
