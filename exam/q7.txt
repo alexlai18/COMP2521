@@ -1,0 +1,20 @@
+Question 7
+
+(a) How many items are examined in searching for the key 42? Justify
+    your answer.
+    4. It examines keys 9, 20, 31 and 42, as those are the numbers held in the 9 index.
+    We examine these keys because they are equal to or smaller than 42
+
+
+(b) How many items are examined in searching for the key 111? Justify
+    your answer.
+    10. It searches through keys 1, 12, 23, 34, 45, 56, 67, 78, 89 and 100. As key 111 is in index 1.
+    As it does not include 111, you don't examine key 111.
+
+
+(c) What is the worst-case search cost after N total items have been
+    inserted? Justify your answer.
+    O(N). this occurs when everything is inside 1 index, and you are searching for the largest number. This way, it examines every 
+    key in the index. 
+
+

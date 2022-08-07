@@ -1,0 +1,9 @@
+Question 4
+
+Which of the given algorithms could have been used to construct the
+mininum spanning tree? Justify your answer.
+
+Kruskal's algorithm can be used to construct the above minimum spanning tree as it continuously selects the edges with the smallest weight
+that do not create a cycle.
+
+

@@ -1,0 +1,22 @@
+Question 1
+
+(a) What is the maximum input size that can be processed? Justify your
+    answer.
+    My computer can run do 2^10 actions in a day. Given the fast computer can run 1000x faster,
+    the actions you can perform is 2^10 * 1000. When you use the equation for time complexity 2^n, and solve for 
+    2^10 * 1000, you get n = 20 (rounded up). Therefore, the maximum input size that can be processed is 20
+
+
+(b) Which of the two algorithms is more efficient? Justify your answer.
+    Binary search is more efficient. Given that the binary search uses 1 comparison to 
+    reduce the search space by half, and quad search uses 3 comparisons to reduce the search space 
+    to one quarter, the binary search decreases it more efficiently, as each comparison for quad search
+    decreases search by 1 quarter.
+
+
+(c) What are the time complexities of fnA() and fnB() in terms of a and
+    b? Justify your answer.
+    fNa has time complexity of O(N) because it calls itself b - a times, before reaching the base case, thus it is linear.
+    fnB is O(2^n) because each function calls itself twice, making it exponential and recurses b-a times.
+
+

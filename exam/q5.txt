@@ -1,0 +1,22 @@
+Question 5
+
+(a) Describe and justify the steps you would take to determine which
+    sorting algorithm the program uses.
+
+    To distinguish between a selection sort and a randomised quicksort is by analysing the best case
+    scenarios, O(n^2) for selection sort and O(n log n) for randomised quicksort. As they are both unstable,
+    we do not measure stability. We give an ascending order input for both selection and randomised quick sorts.
+    If the runtime increases exponentially with input size, it is selection sort. If not, it is randomised quicksort.
+
+
+(b) Is the sorting algorithm that the program uses stable? How confident
+    are you in your conclusion? Explain your answer.
+
+    When a sorting algorithm is stable, the values are sorted in the same position
+    relative to what they were before they were sorted.
+
+    In here, the pairs (2, 8), (2, 9) and (2, 7) were sorted as they were in the 
+    unsorted input. This occurs in first index 4 and 5 as well.
+
+    Because of this, we can conclude that the sorting algorithm given is a stable sort.
+

@@ -1,0 +1,9 @@
+Question 8
+
+Which of the given statements about tries (A, B, C or D) is false?
+Briefly explain why the statement you selected is false.
+
+B. The whole preface of a trie is so that multiple words can be searched for given a set of prefixes.
+For example, if there are 2 words like but and butt, there is a branch that spans down like b -> u -> t
+where t is a leaf node itself, and then a pointer to another ->t to create the word butt.
+

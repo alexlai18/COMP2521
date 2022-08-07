@@ -1,0 +1,12 @@
+
+Displaying tree (sideways)
+
+				94
+			90
+		80
+	60
+		55
+50
+	45
+
+maxDiff returned: 4

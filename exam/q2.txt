@@ -1,0 +1,10 @@
+Question 2
+
+Explain why the compilation error occurred and briefly describe how it
+can be fixed.
+
+This occurs because the function main doesn't know about the struct being declared because the declaration is not in 
+Graph.h or prog.c. A way to solve this is either by defining the struct inside Graph.h, or to have a helper function in Graph.h which 
+returns the values needed.
+
+

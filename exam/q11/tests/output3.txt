@@ -1,0 +1,17 @@
+nV: 5
+
+Edge inserted: 3 -> 2
+Edge inserted: 3 -> 0
+Edge inserted: 1 -> 4
+Edge inserted: 0 -> 1
+Edge inserted: 1 -> 3
+Edge inserted: 1 -> 2
+Edge inserted: 0 -> 4
+Edge inserted: 2 -> 4
+
+notInCycle array:
+ node 0: 0
+ node 1: 0
+ node 2: 1
+ node 3: 0
+ node 4: 1
