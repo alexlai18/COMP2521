@@ -1,0 +1,30 @@
+Source node: 0
+  Distances
+    0: 0
+    1: 2
+    2: INF
+  Predecessors
+    0: NULL
+    1: [0] -> NULL
+    2: NULL
+
+Source node: 1
+  Distances
+    0: 5
+    1: 0
+    2: INF
+  Predecessors
+    0: [1] -> NULL
+    1: NULL
+    2: NULL
+
+Source node: 2
+  Distances
+    0: 6
+    1: 1
+    2: 0
+  Predecessors
+    0: [1] -> NULL
+    1: [2] -> NULL
+    2: NULL
+
